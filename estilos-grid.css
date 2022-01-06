@@ -7,6 +7,8 @@
 body {
 	background: #1D202B;
 	color: #fff;
+	height: 100vh;
+	display: grid;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -15,7 +17,6 @@ body {
 	max-width: 1200px;
 	margin: auto;
 	padding: 40px 0;
-
 	/* Grid */
 	display: grid;
 	grid-template-columns: 3fr 1fr; /*Con esto indicamos como queremos dividir el documento. 
