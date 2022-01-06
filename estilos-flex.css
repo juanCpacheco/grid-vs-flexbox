@@ -16,7 +16,9 @@ body {
 	margin: auto;
 	padding: 40px 0;
 
-	
+	/*Aca usaremos flexbox aunque para realizar esto es mejor grid ya que fue creado con este proposito*/
+	display:flex; /*Esto pone los div dentro del contenedor uno al lado del otro*/ 
+	gap: 20px; /*Esto pone una separacion entre los contenedores*/
 }
 
 .titulo {
@@ -25,7 +27,10 @@ body {
 }
 
 .contenedor-conciertos {
-	
+	width: 70%;
+
+	display: flex;
+	flex-wrap: wrap;/*Esto indica que si los elementos no caben se ponen uno abajo del otro*/
 }
 
 .card {
@@ -38,13 +43,16 @@ body {
 	background-size: cover;
 	background-position: center center;
 
-	
+	margin:0.5em;
+	width: 16em;
 }
 
 .card .textos {
 	height: 100%;
 	
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; /*Esto para separar los textos*/
 }
 
 .banner {
@@ -54,7 +62,10 @@ body {
 	background-size: cover;
 	background-position: center center;
 
-
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .banner ul {

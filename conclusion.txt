@@ -1,0 +1,7 @@
+
+Conclusion: 
+
+Grid, usarlo para crear la estructura de la pagina.
+Flexbox para acomodar elementos y espaciados de cajas.
+
+Recordar que el codigo final esta en la rama master
